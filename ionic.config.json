@@ -1,0 +1,7 @@
+{
+  "name": "quiz_annisa_haryoko",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

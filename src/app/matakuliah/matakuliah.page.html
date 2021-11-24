@@ -1,0 +1,79 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button autoHide="false"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Mata Kuliah</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    
+    <ion-card>    
+      <div class="container mt-5"><div class="row mb-5">
+        <div class="col-md-2 mb-1">
+            <form action="http://elearning.unbin.ac.id/student/course" method="post" accept-charset="utf-8">
+    
+            <div class="form-group">
+              <p></p>
+                <label for="cacademic_year">Tahun Akademik</label>
+                <p></p>
+                <input type="text" class="form-control form-control-sm" id="cacademic_year" name="cacademic_year" maxlength="9" autocomplete="off" value="2021/2022">
+            </div>
+            <p></p>
+            <div class="form-group">
+                <label for="csmt">Semester</label>
+                <p></p>
+                <select class="form-control form-control-sm" id="csmt" name="csmt">
+                    <option value="ganjil" selected>Ganjil</option>
+                    <option value="genap" >Genap</option>
+                </select>
+                <p></p>
+            </div>
+            </form>    
+          </div>
+        </div>
+      </div>
+    </ion-card>
+    <br>
+    <ion-card-subtitle align="center">List Mata Kuliah</ion-card-subtitle>
+  
+    <ion-card>
+      <ion-item href="http://localhost:8100/profile">
+        <ion-icon name="bookmarks" slot="start"></ion-icon>  
+      <ion-label>English 1</ion-label>
+    </ion-item>
+  
+    <ion-item href="http://localhost:8100/profile">
+      <ion-icon name="bookmarks" slot="start"></ion-icon>  
+      <ion-label>Mobile Platforms</ion-label>
+    </ion-item>
+  
+    <ion-item href="http://localhost:8100/profile">
+      <ion-icon name="bookmarks" slot="start"></ion-icon>  
+      <ion-label>Software Modeling And Analyst</ion-label>
+    </ion-item>
+  
+    <ion-item href="http://localhost:8100/profile">
+      <ion-icon name="bookmarks" slot="start"></ion-icon>  
+      <ion-label>Calculus</ion-label>
+    </ion-item>
+  
+    <ion-item href="http://localhost:8100/profile">
+      <ion-icon name="bookmarks" slot="start"></ion-icon>  
+      <ion-label>Intelligence System Fundamental</ion-label>
+    </ion-item>
+  
+    <ion-item href="http://localhost:8100/profile">
+      <ion-icon name="bookmarks" slot="start"></ion-icon>  
+      <ion-label>Web Programming</ion-label>
+    </ion-item>
+  
+    <ion-item href="http://localhost:8100/profile">
+      <ion-icon name="bookmarks" slot="start"></ion-icon>  
+      <ion-label>Intelligence System Basic Search Strategies</ion-label>
+    </ion-item>
+    </ion-card>    
+</ion-card>
+</ion-content>
